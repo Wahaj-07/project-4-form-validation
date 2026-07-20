@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">   <!-- ADD THIS -->
+</head>
+<body>
+    <div class="bg-elements">
+  <span>&lt;div&gt;</span>
+  <span>{ }</span>
+  <span>&lt;/&gt;</span>
+  <span>const</span>
+  <span>=&gt;</span>
+  <span>&lt;h1&gt;</span>
+  <span>CSS</span>
+  <span>[ ]</span>
+  <span>function()</span>
+  <span>&lt;nav&gt;</span>
+  <span>HTML</span>
+  <span>JS</span>
+  <span>let</span>
+  <span>&lt;form&gt;</span>
+  <span>display:</span>
+  <span>flexbox</span>
+  <span>grid</span>
+  <span>var(--)</span>
+  <span>@media</span>
+  <span>npm</span>
+  <span>.class</span>
+  <span>#id</span>
+  <span>fetch()</span>
+  <span>async</span>
+  <span>DOM</span>
+  <span>return</span>
+  <span>padding:</span>
+  <span>border:</span>
+  <span>import</span>
+  <span>regex</span>
+</div>
+  <div class="container">
+
+  <div class="form-header">
+    <span class="logo">✦ DecodeLabs</span>
+    <h1>Create Account</h1>
+    <p>Join us today — it only takes a minute</p>
+  </div>
+
+  <hr class="divider">
+
+  <form id="myForm" novalidate>
+
+    <!-- Name -->
+    <div class="form-group">
+      <label for="name">Full Name <span class="required-star">*</span></label>
+      <div class="input-wrapper">
+        <span class="input-icon">👤</span>
+        <input type="text" id="name" placeholder="e.g. John Smith">
+      </div>
+      <span class="error-msg" id="name-error"></span>
+    </div>
+
+    <!-- Email -->
+    <div class="form-group">
+      <label for="email">Email Address <span class="required-star">*</span></label>
+      <div class="input-wrapper">
+        <span class="input-icon">✉️</span>
+        <input type="email" id="email" placeholder="e.g. john@email.com">
+      </div>
+      <span class="error-msg" id="email-error"></span>
+    </div>
+
+    <!-- Password -->
+    <div class="form-group">
+      <label for="password">Password <span class="required-star">*</span></label>
+      <div class="input-wrapper">
+        <span class="input-icon">🔒</span>
+        <input type="password" id="password" placeholder="Min 8 chars, 1 uppercase, 1 number, 1 symbol">
+      </div>
+      <span class="error-msg" id="password-error"></span>
+    </div>
+
+    <!-- Confirm Password -->
+    <div class="form-group">
+      <label for="confirm">Confirm Password <span class="required-star">*</span></label>
+      <div class="input-wrapper">
+        <span class="input-icon">🔑</span>
+        <input type="password" id="confirm" placeholder="Re-enter your password">
+      </div>
+      <span class="error-msg" id="confirm-error"></span>
+    </div>
+
+    <button type="submit" class="btn">Create Account →</button>
+
+    <p class="success-msg" id="successMsg">🎉 Account created successfully! Welcome aboard.</p>
+
+  </form>
+
+  <p class="form-footer">
+    Already have an account? <a href="#">Sign in</a>
+  </p>
+
+</div>
+  <script src="script.js"></script>   <!-- ADD THIS -->
+</body>
